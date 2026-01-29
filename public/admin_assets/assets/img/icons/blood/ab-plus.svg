@@ -1,0 +1,4 @@
+<svg width="48" height="48" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M64 8 C64 8 24 56 24 80 a40 40 0 0 0 80 0 C104 56 64 8 64 8z" fill="#dc3545"></path>
+  <text x="64" y="82" text-anchor="middle" font-size="28" font-weight="700" fill="white">AB+</text>
+</svg>
