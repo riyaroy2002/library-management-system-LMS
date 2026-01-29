@@ -77,7 +77,7 @@
                                     <div class="col-md-12">
                                         <label class="form-label">Email</label>
                                         <input type="email" class="form-control" name="email"
-                                            value="{{ old('email', $user->email) }}">
+                                            value="{{ old('email', $user->email) }}" readonly>
                                     </div>
                                     <div class="col-md-12">
                                         <label class="form-label">Address Line 1</label>
