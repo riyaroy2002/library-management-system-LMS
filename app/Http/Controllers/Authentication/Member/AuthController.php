@@ -142,10 +142,16 @@ class AuthController extends Controller
         }
     }
 
+    public function getDistrictByState($state_id)
+    {
+        return District::where('state_id', $state_id)->get();
+    }
+
     public function getDistrict($state_id)
     {
         return District::where('state_id', $state_id)->get();
     }
+
 
     public function verifyEmailForm()
     {
@@ -382,12 +388,12 @@ class AuthController extends Controller
 
             $validated    = $validator->validated();
             $profileImage = '';
-             if ($request->hasFile('profile_image')) {
+            if ($request->hasFile('profile_image')) {
                 if ($user->profile_image && file_exists($user->profile_image)) {
                     @unlink($user->profile_image);
                 }
-               $profileImage =  $this->customSaveImage($request->file('profile_image'), 'users/profile_images');
-            }else {
+                $profileImage =  $this->customSaveImage($request->file('profile_image'), 'users/profile_images');
+            } else {
                 $profileImage = $user->profile_image;
             }
 
@@ -425,7 +431,7 @@ class AuthController extends Controller
             return redirect()->route('edit-profile')->with('success', 'Profile updated successfully.');
         } catch (\Exception $e) {
             DB::rollBack();
-            return redirect()->back()->with('error', 'Something went wrong. Please try again later.'.$e)->withInput();
+            return redirect()->back()->with('error', 'Something went wrong. Please try again later.' . $e)->withInput();
         }
     }
 

@@ -51,8 +51,8 @@
                                 <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button"
                                     data-bs-toggle="dropdown">
 
-                                    <img src="{{ asset('assets/img/default-user.webp') }}" alt="User"
-                                        class="rounded-circle"
+                                    <img src="{{ Auth::user()->image_url ? asset(Auth::user()->image_url) : asset('assets/img/default-user.webp') }}"
+                                        alt="User" class="rounded-circle"
                                         style="width: 35px; height: 35px; object-fit: cover; margin-right: 8px;">
                                     @auth
                                         @if (Auth::user()->role === 'admin')

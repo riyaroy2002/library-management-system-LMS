@@ -233,7 +233,7 @@
 
                 if (stateId) {
                     $.ajax({
-                        url: '/district/' + stateId,
+                        url: '/librarian/district/' + stateId,
                         type: 'GET',
                         success: function(data) {
                             if (data.length === 0) {
