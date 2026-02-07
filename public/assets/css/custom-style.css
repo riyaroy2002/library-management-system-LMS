@@ -1,0 +1,1125 @@
+.collab-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 30px 24px;
+    text-align: center;
+    height: 100%;
+    box-shadow:
+        0 10px 25px rgba(0, 0, 0, 0.08),
+        0 4px 10px rgba(220, 53, 69, 0.05);
+    transition: all 0.35s ease;
+}
+
+.collab-logo {
+    max-height: 70px;
+    margin-bottom: 20px;
+    object-fit: contain;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 44px;
+    height: 44px;
+    background: #dc3545;
+    border-radius: 50%;
+    box-shadow: 0 6px 16px rgba(220, 53, 69, 0.4);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 575px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+.donor-card {
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.donor-header {
+    padding: 22px 30px;
+    border-radius: 18px;
+   background: linear-gradient(135deg, #000000, #0f3d2e, #1b5e20);
+}
+
+.donor-body {
+    padding: 35px 40px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px 14px;
+    border: 1px solid #eee;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0f3d2e;
+    box-shadow: none;
+}
+
+.submit-btn {
+    border-radius: 10px;
+    padding: 10px 26px;
+}
+
+.rounded-tabs .nav-link {
+    border-radius: 50px !important;
+    margin-right: 5px;
+    color: #495057;
+    transition: 0.3s;
+}
+
+.rounded-tabs .nav-link.active {
+    background-color: #0d6efd !important;
+    color: #fff !important;
+}
+
+.donor-card {
+    border: none;
+    overflow: hidden;
+}
+
+.donor-card .card-header {
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.find-blood-card {
+    max-width: 900px;
+    border-radius: 14px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+.blood-image {
+    height: 100%;
+    min-height: 420px;
+    background-image: url("/assets/img/Panel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 25px;
+    margin-left: -25px;
+    margin-right: -25px;
+}
+
+@media (max-width: 991px) {
+    .blood-image {
+        display: none;
+    }
+}
+
+
+.form-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.form-select {
+    border-radius: 8px;
+}
+
+.btn-dark {
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .blood-image {
+        height: 250px;
+        margin: 15px;
+    }
+}
+
+.info-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 20px 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.auto-call-btn {
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-weight: 500;
+}
+
+.donor-main-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.refresh-btn {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.donor-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.donor-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+}
+
+.donor-list li:last-child {
+    border-bottom: none;
+}
+
+.warning-bar {
+    border-top: 1px solid #ddd;
+    padding-top: 14px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .info-card,
+    .donor-main-card {
+        padding: 18px;
+    }
+}
+
+.tab-switch {
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.tab-btn {
+    border: none;
+    background: transparent;
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.tab-btn.active {
+    background: #000;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.info-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 22px 26px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+}
+
+.donor-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 40px 26px 22px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.donor-list {
+    list-style: none;
+    padding: 0;
+}
+
+.donor-list li {
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.warning-bar {
+    border-top: 1px solid #ddd;
+    padding-top: 14px;
+    font-size: 14px;
+    color: #555;
+}
+
+.bank-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 24px 26px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+}
+
+.bank-name {
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.bank-text {
+    font-size: 14px;
+    color: #666;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .05);
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    background: #eee;
+    border-radius: 8px;
+    border: 1px solid #000;
+
+}
+
+.profile-table td:first-child {
+    width: 35%;
+    color: #777;
+    font-size: 14px;
+}
+
+.profile-table td {
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.side-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .05);
+}
+
+.calendar-table td {
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.calendar-table .today {
+    background: #000;
+    color: #fff;
+}
+
+.login-btn {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.login-btn:hover {
+    background-color: transparent;
+    color: #000;
+    box-shadow: none;
+}
+
+@media (max-width: 991px) {
+    .login-btn {
+        width: 100%;
+        display: block;
+        text-align: center;
+        color: #fff;
+        border-color: #fff;
+    }
+
+    .login-btn:hover {
+        color: #fff;
+        background-color: transparent;
+        border-color: #fff;
+    }
+
+    .nav-item.ms-3 {
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+}
+
+.about-us-header {
+   background: linear-gradient(135deg, #000000, #0f3d2e, #1b5e20);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-us-header h1 {
+    margin: 0;
+    color: white;
+    font-size: 48px;
+}
+
+.about-us-header p {
+    margin: 10px 0 0;
+    font-size: 16px;
+}
+
+.about-us-header a {
+    color: white;
+    text-decoration: underline;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.about-us-text {
+    flex: 1 1 500px;
+    padding-right: 40px;
+}
+
+.about-us-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-us-text h3 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.about-us-text p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.about-us-image {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #0f3d2e;
+    margin: 10px 0 20px 0;
+}
+
+@media (max-width: 768px) {
+    .about-us-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us-text {
+        padding-right: 0;
+    }
+}
+
+.contact-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.contact-card .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-card .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.contact-card .btn-primary {
+    background-color: #ff4d4f;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.contact-card .btn-primary:hover {
+    background-color: #e04345;
+}
+
+.btn-telegram {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 25px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    transition: background 0.3s ease;
+}
+
+.btn-telegram i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.btn-telegram:hover {
+    background-color: #000;
+}
+
+/* Footer text */
+footer.bg-dark,
+footer.bg-dark p,
+footer.bg-dark h4,
+footer.bg-dark address,
+footer.bg-dark li,
+footer.bg-dark a {
+    color: #ffffff !important;
+}
+
+footer.bg-dark a {
+    text-decoration: none;
+}
+
+/* Social icons */
+footer.bg-dark .social a {
+    color: #ffffff;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+footer.bg-dark .social a:hover {
+    color: #ff4d4d;
+    transform: scale(1.2);
+}
+
+/* Red gradient Join button */
+#mc-embedded-subscribe2 {
+   background: linear-gradient(135deg, #000000, #0f3d2e, #1b5e20);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+#mc-embedded-subscribe2:hover {
+   background: linear-gradient(135deg, #000000, #0f3d2e, #1b5e20);
+    transform: scale(1.05);
+}
+
+/* Input field */
+#mc_embed_signup2 input.form-control {
+    background-color: #2c2c2c;
+    border: 1px solid #555;
+    color: #fff;
+}
+
+#mc_embed_signup2 input.form-control::placeholder {
+    color: #aaa;
+}
+
+/* Optional: labels */
+#mc_embed_signup2 label {
+    color: #fff;
+}
+
+.widget ul li a {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.widget ul li a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+.login-card {
+    max-width: 500px;
+    /* increased width */
+    width: 90%;
+    /* responsive on smaller screens */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+     border: 1px solid #0f3d2e;
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-black:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+}
+
+.form-check-label {
+    color: #000;
+}
+
+.otp-card,
+.registration-card {
+    max-width: 400px;
+    width: 90%;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #0f3d2e;
+}
+
+.otp-input {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #aa8989;
+    border-radius: 8px;
+}
+
+
+.resend-otp {
+    font-size: 14px;
+    color: #28a745;
+    cursor: pointer;
+    margin-top: 5px;
+    display: block;
+}
+
+.error-msg {
+    background-color: #f44336;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.success-msg {
+    color: #28a745;
+    font-size: 18px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.logo {
+    height: 38px;
+    width: auto;
+}
+
+/* =========================
+   FIX: Donor & Bank card width + shadow
+   ========================= */
+
+.donor-card,
+.bank-card,
+.info-card {
+    max-width: 900px;
+    /* card একটু ছোট */
+    margin-left: auto;
+    margin-right: auto;
+    /* center */
+}
+
+/* Donor card shadow polish */
+.donor-card {
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Bank card shadow polish */
+.bank-card {
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.10);
+}
+
+/* Info card slightly lighter */
+.info-card {
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile safe */
+@media (max-width: 768px) {
+
+    .donor-card,
+    .bank-card,
+    .info-card {
+        max-width: 100%;
+    }
+}
+
+.donor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.donor-item:last-child {
+    border-bottom: none;
+}
+
+.view-btn-sm {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 13px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.view-btn-sm:hover {
+    background: #222;
+}
+
+@media (max-width: 576px) {
+    .donor-item {
+        gap: 10px;
+    }
+
+    .view-btn-sm {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+.form-control:focus {
+    border: 1px solid #0f3d2e;
+    box-shadow: none;
+}
+
+/* Form rows compact */
+.donor-body .row.g-4 {
+    --bs-gutter-y: 12px;
+    /* vertical spacing between inputs */
+    --bs-gutter-x: 12px;
+    /* horizontal spacing */
+}
+
+/* Inputs & selects compact */
+.donor-body .form-control,
+.donor-body .form-select,
+.donor-body textarea {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+/* Labels smaller */
+.donor-body .form-label {
+    font-size: 13px;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+/* Checkbox smaller */
+.donor-body .form-check-label {
+    font-size: 13px;
+}
+
+/* Submit button compact */
+.donor-body .submit-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+/* Focus (colors unchanged) */
+.donor-body .form-control:focus,
+.donor-body .form-select:focus,
+.donor-body textarea:focus {
+    box-shadow: none;
+    border-width: 2px;
+}
+
+/* Card vertical spacing */
+.donor-card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #0f3d2e, #0f3d2e);
+}
+
+/* Optional: responsive gap for smaller screens */
+@media (max-width: 768px) {
+    .donor-card {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(90deg, #0f3d2e, #0f3d2e);
+    }
+}
+
+
+input.form-control,
+select.form-select,
+textarea.form-control {
+    background-color: #ffffff;
+    border: 1.5px solid #695a5a;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Focus state */
+input.form-control:focus,
+select.form-select:focus,
+textarea.form-control:focus {
+    border-color: #0f3d2e;
+    box-shadow: 0 0 0 2px rgba(177, 27, 70, 0.15);
+    outline: none;
+}
+
+/* Placeholder visibility */
+input.form-control::placeholder,
+textarea.form-control::placeholder {
+    color: #9a9a9a;
+    opacity: 1;
+}
+
+/* Disabled inputs */
+input.form-control:disabled,
+select.form-select:disabled,
+textarea.form-control:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+/* Checkbox base */
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Checked state */
+.form-check-input:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+/* Focus */
+.form-check-input:focus {
+    box-shadow: 0 0 0 2px rgba(13, 56, 31, 0.25);
+    outline: none;
+}
+
+/* Label spacing & readability */
+.form-check-label {
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #444;
+}
+
+.image-wrapper {
+    background-position: right center !important;
+    background-size: contain !important;
+    /* image আর stretch হবে না */
+    background-repeat: no-repeat;
+}
+
+/* Large screen এ image একটু বড় */
+@media (min-width: 1200px) {
+    .image-wrapper {
+        background-size: 55% auto !important;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+    .image-wrapper {
+        background-size: 45% auto !important;
+    }
+}
+
+/* Mobile এ image hide */
+@media (max-width: 576px) {
+    .image-wrapper {
+        background-image: none !important;
+    }
+}
+
+.blog-card {
+    padding: 12px;
+    /* card ভিতরে equal gap */
+    border: 1px solid #e5e5e5;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 12px;
+    /* image & content er gap */
+}
+
+
+
+.blog-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.blog-body h5 {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.blog-body .meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.blog-body p {
+    font-size: 14px;
+    color: #555;
+    flex-grow: 1;
+}
+
+
+
+/* Button black */
+.blog-body .btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+/* Hover e same look, just slight lift */
+.blog-body .btn:hover {
+    background: #000;
+    color: #fff;
+    transform: translateY(-2px);
+    transition: 0.2s ease;
+}
+
+.profile-card,
+.side-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 20px 24px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(90deg, #0f3d2e, #000000);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+}
+
+.carousel-control-prev {
+    left: -50px;
+    /* move slightly outside */
+    color: #000;
+}
+
+.carousel-control-next {
+    right: -50px;
+    /* move slightly outside */
+    color: #000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 50%;
+    /* smaller arrow */
+    border-radius: 8px;
+    /* slightly rounded */
+    background-color: #000;
+    /* dark background for visibility */
+}
+.custom-dropdown .dropdown-item {
+    position: relative;
+    padding: 6px 20px;  /* reduce vertical padding */
+    border-radius: 6px;
+    overflow: hidden;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+/* Optional: reduce spacing between <li> elements if needed */
+.custom-dropdown li + li {
+    margin-top: 2px;  /* small vertical gap between items */
+}
+
+.profile-img-edit {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.upload-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.upload-overlay i {
+    color: #fff;
+    font-size: 20px;
+}
+
+.profile-img-edit:hover .upload-overlay {
+    opacity: 1;
+}
+
+.upload-overlay input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.underline-3.style-3.green {
+    color: #0f3d2e in !important;
+}
+
+.underline-3.style-3.green::after {
+   color: #0f3d2e in !important;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 4px solid #e9ecef;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.profile-table td:first-child {
+    width: 180px;
+    font-weight: 600;
+    color: #555;
+}
+
+.profile-table td {
+    padding: 6px 0;
+}
+
+.member-code {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.member-code span {
+    font-size: 1rem;
+    font-weight: 800;
+    color: #000;
+}
+.wrapper.image-wrapper{
+    min-height: 230px;
+    background-size: contain;
+}
+
+@media (max-width: 768px){
+    .wrapper.image-wrapper{
+        min-height: 180px;
+    }
+}
+.book-image-wrapper {
+    width: 100%;
+    height: 445px;
+    overflow: hidden;
+}
+
+.book-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

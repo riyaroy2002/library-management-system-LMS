@@ -1,0 +1,10 @@
+<svg width="48" height="48" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="64" cy="36" r="20" fill="#0d6efd"></circle>
+
+  <!-- Body -->
+  <path d="M32 112c0-18 14-32 32-32s32 14 32 32" fill="#0d6efd"></path>
+
+  <!-- Blood Drop -->
+  <path d="M96 56 C96 56 84 72 84 82 a12 12 0 0 0 24 0 C108 72 96 56 96 56z" fill="#dc3545"></path>
+</svg>
